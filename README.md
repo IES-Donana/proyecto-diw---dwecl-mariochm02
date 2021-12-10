@@ -1,25 +1,30 @@
-# Proyecto DIW - DWECL
-
-## ÍNDICE   
-1. [DESCRIPCIÓN](#id1)
-2. [PROTOTIPO](#id2)
-3. [MODIFICACIONES A LA GUÍA DE ESTILOS](#id3)
-4. [RECURSOS](#id4)
-
-## DESCRIPCIÓN<a name="id1"></a>
+Proyecto DIW - DWECL
+ÍNDICE
+DESCRIPCIÓN
+PROTOTIPO
+MODIFICACIONES A LA GUÍA DE ESTILOS
+RECURSOS
+DESCRIPCIÓN
 [Incluye la descripción de tu proyecto.]
 
-## PROTOTIPO<a name="id2"></a>
+PROTOTIPO
 [Incluye el enlace a tu prototipo realizado en Figma.]
 
-## MODIFICACIONES A LA GUÍA DE ESTILOS<a name="id3"></a>
+MODIFICACIONES A LA GUÍA DE ESTILOS
 [Listado de modificaciones realizadas debidadmente justificadas. ]
 
-## RECURSOS<a name="id4"></a>
+Se han modificado los siguientes puntos del diseño:
+index.html: Se ha modificado debido a que la anterior era muy poco llamativa y una página principal debe atraer ya que es la primera impresión que te llevas del portafolio y es muy importante.
+
+Proyecto: Se ha eliminado la elipse de los titulos, ya que como indicaba en la corrección daban un toque antiguo y yo busco un portafolio moderno
+
+Colores: Se han modificado los colores, para ser concretos el rosa por el azul, esto se debe a que sincronía visual es más llamativa, y además en una de las secciones imito una conversación de WhatsApp con el tema oscuro gracias a esto vi lo armónico que quedaban los colores y lo bien que le quedaría si lo integrara a mi portafolio
+
+RECURSOS
 [Listado de recursos usados]
 
-- Can I use?: https://caniuse.com/
-- Bootstrap: https://getbootstrap.com/
-- Tailwind: https://tailwindcss.com/docs
-- W3C CSS Validator: https://jigsaw.w3.org/css-validator/
-- W3C HTML Validator: https://validator.w3.org/
+¿Puedo usar ?: https://caniuse.com/
+Bootstrap: https://getbootstrap.com/
+Viento de cola: https://tailwindcss.com/docs
+Validador CSS del W3C: https://jigsaw.w3.org/css-validator/
+Validador HTML del W3C: https://validator.w3.org/
