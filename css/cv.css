@@ -1,13 +1,6 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
 
-body{
-    background-color: black;
-    color: whitesmoke;
-}
+
+
 
 header {
     display: flex;
@@ -23,81 +16,7 @@ header {
     color: whitesmoke;
 }
 
-#cabecera {
-    display: flex;
-    background-color: #212E36 ;
-    width: 90vw;
-    height: 15vh;
-    margin: 5%;
-    align-items: center;
-    justify-content:start;
-    border:solid #064035  2px;
-}
 
-#foto {
-    border:solid #064035  2px;
-    margin: 5%;
-    background-color: whitesmoke;
-    width: 8vw;
-    height: 10vh;
-}
-
-#des {
-    color: whitesmoke;
-}
-
-#apartado1 {
-    display: flex;
-    justify-content: space-between;
-    
-    margin: 4%;
-    height: 55vh;
-    
-    
-}
-
-#izquierda1 {
-   
-    width: 40vw;
-    height: 27vh;
-    margin: 1%;
-
-}
-
-li {
-    background-color: #212E36;
-    width: 40vw;
-    height: 4vh;
-    margin-top: 2vh; 
-    border:solid #064035  0.5vw;
-}
-
-.barra {
-    background-color: #212E36;
-    width: 40vw;
-    height: 0.5vh;
-}
-
-#derecha1 {
-    
-    width: 40vw;
-    height: 4vh;
-    margin: 1%;
-    height: 53vh;
-}
-
-.caja {
-    background-color: #212E36;
-    width: 40vw;
-    height: 10vh;
-    margin-top: 2vh;
-    border:solid #064035  0.5vw;
-}
-
-h2 {
-    margin-top: 1vh;
-    color: whitesmoke;
-}
 
 nav {
     display: flex;
@@ -108,12 +27,7 @@ nav {
     justify-content: space-around;
 }
 
-#arriba, #centro, #abajo {
-    
-    background-color: black;
-    width: 2.5vw;
-    height: 0.5vw;
-}
+
 
 
 nav{
