@@ -35,11 +35,18 @@ header {
 }
 
 #foto {
+    align-items: center;
+    display: flex;
     border:solid #064035  2px;
     margin: 5%;
-    background-color: whitesmoke;
-    width: 8vw;
-    height: 10vh;
+    
+    width: 9vw;
+    height: 15vh;
+}
+
+#fotoimg{
+    width: 9vw;
+    height: 14vh;
 }
 
 #des {
@@ -199,4 +206,27 @@ footer {
     border: solid 1px black;
     align-items: center;
     justify-content: center;
+}
+
+#dialogo1 {
+    
+    color: whitesmoke;
+    position: fixed;
+    top: 10%;
+    width: 30vw;
+    height: 30vh;
+    border-radius: 15px;
+    background: #212E36;
+    margin: auto;
+}
+
+#dialogo2 {
+    
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+#dialogo1::backdrop {
+    background-color: #064035;
+    opacity: 30%;
 }

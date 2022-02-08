@@ -77,7 +77,7 @@ body  {
 .carrusel {
     width: 25vw;
     height: 18vh;
-    background-color: aliceblue;
+    
 }
 
 #formulario {
@@ -166,3 +166,21 @@ nav{
 
 
 }
+
+.p1 {
+    width: 25vw;
+    height: 18vh;
+}
+
+.p1:hover {
+    filter: grayscale();
+}
+
+.videotestimonio {
+    width: 67vw;
+    height: inherit;
+}
+
+
+
+  

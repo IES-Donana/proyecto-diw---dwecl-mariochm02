@@ -16,7 +16,7 @@ body {
 #exterior{
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: 95vh;
     
     justify-content: center;
     align-items: center;
@@ -36,6 +36,10 @@ body {
     border-radius: 122px;
     transition: ease 1s;
     box-shadow:  20px 20px 60px rgba(3,166,136,1), -20px -20px 60px rgba(3,166,136,1);
+    animation-duration: 5s;
+    animation-name: marco;
+    animation-iteration-count: infinite;
+    
 }
 
 
@@ -98,6 +102,56 @@ nav{
     text-align: center;
 }
 
+#logo {
+    justify-content: right;
+    align-items: center;
+    display: flex;
+    width: 95vw;
+    height: 4vh;
+}
 
+#fotologo {
+    margin-top: 10vh;
+    width: 5vw;
+    height: 5vh;
+    animation-duration: 8s;
+    animation-name: fotologo;
+}
 
+#giflogo{
+    margin-left: 3.8vh;
+    margin-top: 2vh;
+    width: 2vw;
+    height: 3vh;
+}
+
+#videofondo{ 
+    position: absolute;
+    z-index: 0;
+    border-radius: 300px;
+    width: 70vw;
+    height: 80vh;
+    opacity: 10%;
+}
+
+.alante{ 
+    z-index: 1;
+}
+
+@keyframes fotologo {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+@keyframes marco {
+    0% {border-radius: 160px;
+        box-shadow:  20px 20px 60px rgba(3,166,136,1), -20px -20px 60px rgba(3,166,136,1);
+    }
+    50% {border-radius: 50px;
+        box-shadow:  30px 30px 100px rgba(3,166,136,1), -30px -30px 100px rgba(3,166,136,1);
+    }
+    100% {border-radius: 160px;
+        box-shadow:  20px 20px 60px rgba(3,166,136,1), -20px -20px 60px rgba(3,166,136,1);
+    }
+}
 

@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/proyectos.css">
     <title>Document</title>
+    <link rel="icon" 
+      type="image/png" 
+      href="../images/ms-icon-310x310.png">
 </head>
 <body>
     <header>
@@ -26,15 +29,25 @@
                 Tiendas Online
             </article>
             <article class="carrusel">
-                a
+                <a href="https://www.amazon.es/">
+                <picture >
+                    <source srcset="../images/Amazon_logo.svg" media="(min-width: 750px)">
+                    <source srcset="../images/amazonR.svg" media="(max-width: 750px)">
+                    <img class="p1" src="../images/Amazon_logo.svg" alt="MDN">
+                   </picture></a>
             </article>
         </section>
         <section class="cajapar">
             <article class="titulo">
-                Reservas Online
+                Servicio Streaming
             </article>
             <article class="carrusel">
-                b
+                <a href="https://www.netflix.com/es/">
+                <picture >
+                    <source srcset="../images/netflixRG.jpg" media="(min-width: 750px)">
+                    <source srcset="../images/netflix.png" media="(max-width: 750px)">
+                    <img class="p1" src="../images/netflix.png" alt="MDN">
+                   </picture></a>
             </article>
         </section>
         <section class="cajaimpar">
@@ -42,23 +55,38 @@
                 Vlogs
             </article>
             <article class="carrusel">
-                a
+                <a href="https://vandal.elespanol.com/">
+                <picture >
+                    <source srcset="../images/Vandal_logo.svg.png" media="(min-width: 750px)">
+                    <source srcset="../images/vandalR.png" media="(max-width: 750px)">
+                    <img class="p1" src="../images/Vandal_logo.svg.png" alt="MDN">
+                   </picture></a>
             </article>
         </section>
         <section class="cajapar">
             <article class="titulo">
-                Reservas Online
+                Launcher de videojuegos
             </article>
             <article class="carrusel">
-                b
+                <a href="https://store.steampowered.com/">
+                <picture >
+                    <source srcset="../images/steamRG.jpg" media="(min-width: 750px)">
+                    <source srcset="../images/steam.jpg" media="(max-width: 750px)">
+                    <img class="p1" src="../images/steam.jpg" alt="MDN">
+                   </picture></a>
             </article>
         </section>
         <section class="cajaimpar">
             <article class="titulo">
-                Tiendas Online
+                Reservas online
             </article>
             <article class="carrusel">
-                a
+                <a href="https://www.booking.com/">
+                <picture >
+                    <source srcset="../images/booking.png" media="(min-width: 750px)">
+                    <source srcset="../images/bookingR.png" media="(max-width: 750px)">
+                    <img class="p1" src="../images/booking.png" alt="MDN">
+                   </picture></a>
             </article>
         </section>
         
@@ -68,26 +96,26 @@
        <section id="testimonios">
            <article id="testimoniosmenu">
                <div class="menucaja">
-                   Testimonio 1
+                <button onclick="tes1()">Testimonio 1</button>
                </div>
                <div class="menucaja">
-                Testimonio 2
+                <button onclick="tes2()">Testimonio 2</button>
                </div>
                <div class="menucaja">
-                Testimonio 3
+                <button onclick="tes3()">Testimonio 3</button>
                </div>
                <div class="menucaja">
-                Testimonio 4
+                <button onclick="tes4()">Testimonio 4</button>
                </div>
                <div class="menucaja">
-                Testimonio 5
+                <button onclick="tes5()">Testimonio 5</button>
                </div>
                <div class="menucaja">
-                Testimonio 6
+                <button onclick="tes6()">Testimonio 6</button>
                </div>
            </article>
            <article id="testimoniosvideos">
-               placeholder de testimonios
+               <video poster="../images/poster1.png" id="postertest"  controls class="videotestimonio" src="../video/testimonio.mp4" type="video/mp4"></video>
            </article>
        </section>
     </main>
@@ -117,4 +145,43 @@
 </body>
     <script src="../js/menu2.js"></script>
     <script src="../js/form.js"></script>
+
+    <script>
+
+        let x = document.getElementById("postertest")
+            
+
+        function tes1() {
+         console.log(x)
+         x.setAttribute("poster", "../images/poster1.png") 
+        }
+
+        function tes2() {
+         console.log(x)
+         x.setAttribute("poster", "../images/poster2.jpg") 
+        }
+
+        function tes3() {
+         console.log(x)
+         x.setAttribute("poster", "../images/poster3.jpg") 
+        }
+
+        function tes4() {
+         console.log(x)
+         x.setAttribute("poster", "../images/poster4.png") 
+        }
+
+        function tes5() {
+         console.log(x)
+         x.setAttribute("poster", "../images/poster5.png") 
+        }
+        
+        function tes6() {
+         console.log(x)
+         x.setAttribute("poster", "../images/poster6.jpg") 
+        }
+
+        
+
+    </script>
 </html>

@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="icon" 
+      type="image/png" 
+      href="images/ms-icon-310x310.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
@@ -12,9 +15,23 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+    <audio loop autoplay>
+        <source src="audio/fondo.mp3" type="audio/mpeg">
+        Tu navegador no soporta audios
+      </audio>
 <div id="particles-js"></div>
+<div id="logo">
+    
+    <details>
+        <summary><img id="fotologo" src="images/logo.svg" alt="no sale"></summary>
+        <img id="giflogo" src="images/animacion.gif" alt="no aparece">
+    </details>
+</div>
   <div id="exterior">
       <div id="interior">
+            
+        <video id="videofondo" muted autoplay loop src="video/fondo.mp4"></video>
+
           <nav id="navdiv">
               <div id="navarriba" class="navham"></div>
               <div id="navcentro" class="navham"></div>
@@ -27,13 +44,13 @@
                 <a  href="">proyecto</a>
                 <a  href=""></a>              
           </div> -->
-          <div id="nombre">
+          <div class="alante" id="nombre">
              <h1>MARIO CHULIÁN MANTEL</h1> 
           </div>
-          <div id="profesion">
+          <div class="alante" id="profesion">
              <h2>PROGRAMADOR</h2> 
           </div>
-          <div id="descripcion">
+          <div class="alante" id="descripcion">
               <p>
                   Estudiante de Daw, con gran interés en desarrollo web. con capacidad <br>
                   para aprender y aplicar mis conocimientos al ámbito profesional. <br>
