@@ -6,7 +6,7 @@
 
 body{
     background-color: black;
-    color: whitesmoke;
+    color: #FFFFFF;
 }
 
 header {
@@ -20,7 +20,7 @@ header {
 
 #title {
     font-size: 6vw;
-    color: whitesmoke;
+    color: #FFFFFF;
 }
 
 #cabecera {
@@ -50,7 +50,7 @@ header {
 }
 
 #des {
-    color: whitesmoke;
+    color: #FFFFFF;
 }
 
 #apartado1 {
@@ -103,7 +103,7 @@ li {
 
 h2 {
     margin-top: 1vh;
-    color: whitesmoke;
+    color: #FFFFFF;
 }
 
 nav {
@@ -179,7 +179,7 @@ label, input {
 
 footer {
     height: 30vh;
-    background-color: #A4A9AD;
+    background-color: #48484c;
 }
 
 
@@ -210,7 +210,7 @@ footer {
 
 #dialogo1 {
     
-    color: whitesmoke;
+    color: #FFFFFF;
     position: fixed;
     top: 10%;
     width: 30vw;
