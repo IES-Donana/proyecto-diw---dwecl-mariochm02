@@ -25,7 +25,7 @@
     </nav>
     <main>
         <section id="cabecera">
-            <article id="foto"> <img id="fotoimg" src="../images/IMG-20220127-WA0009.jpg" alt=""> </article>
+            <article id="foto"> <img id="fotoimg" src="../images/IMG-20220127-WA0009.jpg" alt="Foto del Programador"> </article>
             <article id="des"> 
                 <p>
                 Estudiante de Daw, con gran interés en desarrollo web. con capacidad <br>
@@ -44,13 +44,13 @@
                         <li>Calle Datiles Nº5 Sanlucar de Barrameda</li>
                         <li>673402625</li>
                         <li>mariochulianmantel@gmail.com</li>
-                        <li><button type="button" onclick="abrirDialogo()">Mostar informacion de contacto</button>
+                        <li><button aria-label="open" type="button" onclick="abrirDialogo()">Mostar informacion de contacto</button>
 
                             <dialog id="dialogo1">
                                 
                               <p id="dialogo2" align="center">Para contactarte puedes hcaerlo al numero 673402625, <br> o si lo prefiere al correo: mariochulianmantel@gmail.com</p>
                             
-                              <p align="center"><button  type="button" onclick="cerrarDialogo()">Cerrar</button></p>
+                              <p align="center"><button aria-label="close" type="button" onclick="cerrarDialogo()">Cerrar</button></p>
                             
                             </dialog>
                     </ul>
@@ -111,7 +111,7 @@
             <textarea name="mensaje" id="mensaje" required></textarea>
 
             <label for="enviar"></label>
-            <input type="submit" name="" id="enviar" value="enviar" />
+            <input aria-label="boton" role="button" type="submit" name="" id="enviar" value="enviar" />
 
         </form>
         <div id="error"></div>
