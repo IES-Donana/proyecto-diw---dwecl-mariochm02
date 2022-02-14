@@ -13,7 +13,7 @@ header {
 
 #title {
     font-size: 6vw;
-    color: whitesmoke;
+    color: #FFFFFF;
 }
 
 #movilAR{
@@ -155,7 +155,7 @@ label, input {
 
 footer {
     height: 30vh;
-    background-color: #A4A9AD;
+    background-color: #48484c;
 }
 
 

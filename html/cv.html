@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,7 +16,7 @@
 </head>
 <body>
     <header>
-        <h2 id="title">CURRICULUM VITAE</h2>
+        <h1 id="title">CURRICULUM VITAE</h2>
     </header>
     <nav id="navdiv">
         <div id="navarriba" class="navham"></div>
@@ -25,7 +25,7 @@
     </nav>
     <main>
         <section id="cabecera">
-            <article id="foto"> <img id="fotoimg" src="../images/IMG-20220127-WA0009.jpg" alt=""> </article>
+            <article id="foto"> <img id="fotoimg" src="../images/IMG-20220127-WA0009.jpg" alt="Foto del Programador"> </article>
             <article id="des"> 
                 <p>
                 Estudiante de Daw, con gran interés en desarrollo web. con capacidad <br>
@@ -44,13 +44,13 @@
                         <li>Calle Datiles Nº5 Sanlucar de Barrameda</li>
                         <li>673402625</li>
                         <li>mariochulianmantel@gmail.com</li>
-                        <li><button type="button" onclick="abrirDialogo()">Mostar informacion de contacto</button>
+                        <li><button aria-label="open" type="button" onclick="abrirDialogo()">Mostar informacion de contacto</button>
 
                             <dialog id="dialogo1">
                                 
                               <p id="dialogo2" align="center">Para contactarte puedes hcaerlo al numero 673402625, <br> o si lo prefiere al correo: mariochulianmantel@gmail.com</p>
                             
-                              <p align="center"><button  type="button" onclick="cerrarDialogo()">Cerrar</button></p>
+                              <p align="center"><button aria-label="close" type="button" onclick="cerrarDialogo()">Cerrar</button></p>
                             
                             </dialog>
                     </ul>
@@ -99,22 +99,22 @@
         </div>
         <form action="" method="get" accept-charset="utf-8" id="formulario">
             <label for="nombre" id="nombrela">Nombre</label>
-            <input type="text" name="nombre" id="nombre"  placeholder="Nombre" required maxlength="25"/>
+            <input aria-details="nombre" aria-required="true" type="text" name="nombre" id="nombre"  placeholder="Nombre" required maxlength="25"/>
 
             <label for="apellidos" id="apellidosla">Apellidos</label>
-            <input type="text" name="apellidos" id="apellido"  placeholder="Apellidos" required maxlength="25"/>
+            <input aria-details="apellido" aria-required="true" type="text" name="apellidos" id="apellido"  placeholder="Apellidos" required maxlength="25"/>
 
             <label for="email" id="emailla">E-mail</label>
-            <input type="email" name="email" id="email"  placeholder="E-mail" required pattern="^\w+@\w+\.\w+$"/>
+            <input aria-details="email" aria-required="true" type="email" name="email" id="email"  placeholder="E-mail" required pattern="^\w+@\w+\.\w+$"/>
 
             <label for="mensaje">mensaje</label>
-            <textarea name="mensaje" id="mensaje" required></textarea>
+            <textarea aria-details="mensaje" aria-required="true" name="mensaje" id="mensaje" required placeholder="Introduce texto"></textarea>
 
-            
-            <input type="submit" name="" id="enviar" value="enviar" />
-
-            <div id="error"></div>
+            <label for="enviar"></label>
+            <input aria-label="boton" role="button" type="submit" name="" id="enviar" value="enviar" />
+            <div aria-details="error" id="error"></div>
         </form>
+       
     </footer>
 </body>
 
