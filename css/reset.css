@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+#edicion {
+    display: flex;
+    justify-content: center;
+}
+
+#copileft{
+    display: flex;
+    justify-content: right;
+    margin-right: 2vw;
+    margin-bottom: 1vh;
+    gap: 1vw;
+    color: black;
+}
+
+ #copi {
+     width: 2vw;
+     height: 2vw;
+ }
