@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/proyectos.css">
+    <link rel="stylesheet" href="../css/print/proyectoP.css" media="print">
+
+    <title>Proyectos</title>
+    <link rel="icon" 
+      type="image/png" 
+      href="../images/ms-icon-310x310.png">
+</head>
+<body>
+    <header>
+        <h1 id="title">MIS PROYECTOS</h2>
+
+            <div id="buscador">
+                <div id="buscadordiv">
+                    <input type="search" name="buscador" ids="buscadorimput">
+                    <label for="buscador">buscar</label>
+                </div>
+            
+            <div id="migas">
+                <span>
+                    <a class="migasa" href="../index.html">Inicio</a> / Proyectos
+                </span>
+            </div>
+        </div>
+    </header>
+    <nav id="navdiv">
+        <div id="navarriba" class="navham"></div>
+        <div id="navcentro" class="navham"></div>
+        <div id="navabajo"  class="navham"></div>
+    </nav>
+    <main>
+        <section class="cajaimpar">
+            <article class="titulo">
+                Tiendas Online
+            </article>
+            <article class="carrusel">
+                <a href="https://www.amazon.es/">
+                <picture >
+                    <source srcset="../images/Amazon_logo.svg" alt="amazon" media="(min-width: 750px)">
+                    <source srcset="../images/amazonR.svg" alt="amazon" media="(max-width: 750px)">
+                    <img class="p1" src="../images/Amazon_logo.svg" alt="Amazon">
+                   </picture></a>
+            </article>
+        </section>
+        <section class="cajapar">
+            <article class="titulo">
+                Servicio Streaming
+            </article>
+            <article class="carrusel">
+                <a href="https://www.netflix.com/es/">
+                <picture >
+                    <source srcset="../images/netflixRG.jpg" alt="netflix" media="(min-width: 750px)">
+                    <source srcset="../images/netflix.png" alt="netflix" media="(max-width: 750px)">
+                    <img class="p1" src="../images/netflix.png" alt="netflix">
+                   </picture></a>
+            </article>
+        </section>
+        <section class="cajaimpar">
+            <article class="titulo">
+                Vlogs
+            </article>
+            <article class="carrusel">
+                <a href="https://vandal.elespanol.com/">
+                <picture >
+                    <source srcset="../images/Vandal_logo.svg.png" alt="vandal" media="(min-width: 750px)">
+                    <source srcset="../images/vandalR.png" alt="vandal" media="(max-width: 750px)">
+                    <img class="p1" src="../images/Vandal_logo.svg.png" alt="Vandal">
+                   </picture></a>
+            </article>
+        </section>
+        <section class="cajapar">
+            <article class="titulo">
+                Launcher de videojuegos
+            </article>
+            <article class="carrusel">
+                <a href="https://store.steampowered.com/">
+                <picture >
+                    <source srcset="../images/steamRG.jpg" alt="steam" media="(min-width: 750px)">
+                    <source srcset="../images/steam.jpg" alt="steam" media="(max-width: 750px)">
+                    <img class="p1" src="../images/steam.jpg" alt="steam">
+                   </picture></a>
+            </article>
+        </section>
+        <section class="cajaimpar">
+            <article class="titulo">
+                Reservas online
+            </article>
+            <article class="carrusel">
+                <a href="https://www.booking.com/">
+                <picture >
+                    <source srcset="../images/booking.png" alt="booking" media="(min-width: 750px)">
+                    <source srcset="../images/bookingR.png" alt="booking" media="(max-width: 750px)">
+                    <img class="p1" src="../images/booking.png" alt="booking">
+                   </picture></a>
+            </article>
+        </section>
+        
+        <header>
+            <h2 id="title">TESTIMONIOS</h2>
+        </header>
+       <section id="testimonios">
+           <article id="testimoniosmenu">
+               <div class="menucaja">
+                <button onclick="tes1()">Testimonio 1</button>
+               </div>
+               <div class="menucaja">
+                <button onclick="tes2()">Testimonio 2</button>
+               </div>
+               <div class="menucaja">
+                <button onclick="tes3()">Testimonio 3</button>
+               </div>
+               <div class="menucaja">
+                <button onclick="tes4()">Testimonio 4</button>
+               </div>
+               <div class="menucaja">
+                <button onclick="tes5()">Testimonio 5</button>
+               </div>
+               <div class="menucaja">
+                <button onclick="tes6()">Testimonio 6</button>
+               </div>
+           </article>
+           <article id="testimoniosvideos">
+               <video alt="testimonio" poster="../images/poster1.png" id="postertest"  controls class="videotestimonio" src="../video/testimonio.mp4" type="video/mp4"></video>
+           </article>
+       </section>
+    </main>
+    <footer>
+        <div id="pie" align="center">
+            Formulario de contacto 
+        </div>
+        <form aria-details="contacto" action="" method="get" accept-charset="utf-8" id="formulario">
+            <label for="nombre" id="nombrela">Nombre</label>
+            <input aria-details="nombre" aria-required="true" type="text" name="nombre" id="nombre"  placeholder="Nombre" required maxlength="25"/>
+
+            <label for="apellidos" id="apellidosla">Apellidos</label>
+            <input aria-details="apellido" aria-required="true" type="text" name="apellidos" id="apellido"  placeholder="Apellidos" required maxlength="25"/>
+
+            <label for="email" id="emailla">E-mail</label>
+            <input aria-details="email" aria-required="true" type="email" name="email" id="email"  placeholder="E-mail" required pattern="^\w+@\w+\.\w+$"/>
+
+            <label for="mensaje">mensaje</label>
+            <textarea aria-details="mensaje" aria-required="true" name="mensaje" id="mensaje" required placeholder="Introduce texto"></textarea>
+
+            <label for="enviar"></label>
+            <input aria-label="boton" role="button" type="submit" name="" id="enviar" value="enviar" />
+            <div aria-details="error" id="error"></div>
+        </form>
+
+        <br> <br>
+       
+        <div id="edicion">Fecha de ultima edicion: 28/8/2022</div>
+        <div id="copileft">
+            <p>Copyleft</p>
+            <img id="copi" src="../images/pngwing.com.png" alt="">
+        </div>
+    </footer>
+</body>
+    <script src="../js/menu2.js"></script>
+    <script src="../js/form.js"></script>
+
+    <script>
+
+        let x = document.getElementById("postertest")
+            
+
+        function tes1() {
+         console.log(x)
+         x.setAttribute("poster", "../images/poster1.png") 
+        }
+
+        function tes2() {
+         console.log(x)
+         x.setAttribute("poster", "../images/poster2.jpg") 
+        }
+
+        function tes3() {
+         console.log(x)
+         x.setAttribute("poster", "../images/poster3.jpg") 
+        }
+
+        function tes4() {
+         console.log(x)
+         x.setAttribute("poster", "../images/poster4.png") 
+        }
+
+        function tes5() {
+         console.log(x)
+         x.setAttribute("poster", "../images/poster5.png") 
+        }
+        
+        function tes6() {
+         console.log(x)
+         x.setAttribute("poster", "../images/poster6.jpg") 
+        }
+
+        
+
+    </script>
+</html>

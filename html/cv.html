@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" 
+      type="image/png" 
+      href="../images/ms-icon-310x310.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/cv.css">
+    <link rel="stylesheet" type="text/css" href="../css/print/cvP.css" media="print">
+
+    <title>Curriculum vitae</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">CURRICULUM VITAE</h2>
+        
+            <div id="buscador">
+                <div id="buscadordiv">
+                    <input type="search" name="buscador" ids="buscadorimput">
+                    <label for="buscador">buscar</label>
+                </div>
+            
+            <div id="migas">
+                <span>
+                    <a class="migasa" href="../index.html">Inicio</a> / Curruculum
+                </span>
+            </div>
+        </div>
+    </header>
+    <nav id="navdiv">
+        <div id="navarriba" class="navham"></div>
+        <div id="navcentro" class="navham"></div>
+        <div id="navabajo"  class="navham"></div>
+    </nav>
+    <main>
+        <section id="cabecera">
+            <article id="foto"> <img id="fotoimg" src="../images/IMG-20220127-WA0009.jpg" alt="Foto del Programador"> </article>
+            <article id="des"> 
+                <p>
+                Estudiante de Daw, con gran interés en desarrollo web. con capacidad <br>
+                para aprender y aplicar mis conocimientos al ámbito profesional. <br>
+                En busca de una oportuniad laboral en la que se desarrolla <br> 
+                mis habilidades y adquirir experiencia
+                </p> 
+            </article>
+        </section>
+        <section id="apartado1">
+            <article id="izquierda1">
+                <div class="barra"></div>
+                <h2>CONTACTO</h2>
+                <div id="contacto">
+                    <ul>
+                        <li>Calle Datiles Nº5 Sanlucar de Barrameda</li>
+                        <li>673402625</li>
+                        <li>mariochulianmantel@gmail.com</li>
+                        <li><button aria-label="open" type="button" onclick="abrirDialogo()">Mostar informacion de contacto</button>
+
+                            <dialog id="dialogo1">
+                                
+                              <p id="dialogo2" align="center">Para contactarte puedes hcaerlo al numero 673402625, <br> o si lo prefiere al correo: mariochulianmantel@gmail.com</p>
+                            
+                              <p align="center"><button aria-label="close" type="button" onclick="cerrarDialogo()">Cerrar</button></p>
+                            
+                            </dialog>
+                    </ul>
+                </div>
+            </article>
+            <article id="derecha1">
+                <div class="barra"></div>
+                <h2>FORMACION</h2>
+                <div class="caja"><p>2º DAW: informatica en curso <br>IES DOÑANA - Sanlucar de barrameda <br> formacion profesional grado superior</p></div>
+                <div class="caja"><p>1º DAW: informatica, 06/2021 <br>Medac Pacifico - Malaga <br> formacion profesional grado superior</p></div>
+                <div class="caja"><p>SMR: informatica, 06/2020 <br>IES DOÑANA - Sanlucar de barrameda <br> formacion profesional grado medio</p></div>
+                <div class="caja">Educación Secundaria, 06/2018 <br> Compañia de Maria - Sanlucar de barrameda</div>
+            </article>
+        </section>
+        <section id="apartado1">
+            <article id="izquierda1">
+                <div class="barra"></div>
+                <h2>APTITUDES</h2>
+                <div id="contacto">
+                    <ul>
+                        <li>Trabajo por objetivos</li>
+                        <li>Atención y concentración</li>
+                        <li>Mantenimiento de la limpieza y el orden</li>
+                        <li>Conocimientos ofimaticos</li>
+                        <li>Capacidad de negociación</li>
+                        <li>Organización y planificación</li>
+                        <li>Toma de decisiones</li>
+                        <li>Permiso de conducción: B</li>
+                    </ul>
+                </div>
+            </article>
+            <article id="derecha1">
+                <div class="barra"></div>
+                <h2>EXPERIENCIA LABORAL</h2>
+                <div class="caja">WebShock: Mi propia empresa - 01/2030 - ... <br>Sanlucar de Barrameda <br>Jefe</div>
+                <div class="caja">ATsistenas: trabajo 05/2022 - 12/2029 <br>Jerez De La Frontera <br>Desarrollador web</div>
+                <div class="caja">Internacional WEB: practicas 03/2022-06/2022 <br>Sevilla <br>Desarrollador web</div>
+                <div class="caja"><p>Beep: practicas 03/2020 - 06/2020 <br>Sanlucar de Barrameda<br> tecnico en sistemas microinformaticos</p></div>
+                
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div id="pie" align="center">
+            Formulario de contacto 
+        </div>
+        <form action="" method="get" accept-charset="utf-8" id="formulario">
+            <label for="nombre" id="nombrela">Nombre</label>
+            <input aria-details="nombre" aria-required="true" type="text" name="nombre" id="nombre"  placeholder="Nombre" required maxlength="25"/>
+
+            <label for="apellidos" id="apellidosla">Apellidos</label>
+            <input aria-details="apellido" aria-required="true" type="text" name="apellidos" id="apellido"  placeholder="Apellidos" required maxlength="25"/>
+
+            <label for="email" id="emailla">E-mail</label>
+            <input aria-details="email" aria-required="true" type="email" name="email" id="email"  placeholder="E-mail" required pattern="^\w+@\w+\.\w+$"/>
+
+            <label for="mensaje">mensaje</label>
+            <textarea aria-details="mensaje" aria-required="true" name="mensaje" id="mensaje" required placeholder="Introduce texto"></textarea>
+
+            <label for="enviar"></label>
+            <input aria-label="boton" role="button" type="submit" name="" id="enviar" value="enviar" />
+            <div aria-details="error" id="error"></div>
+        </form>
+
+        <br> <br>
+       
+        <div id="edicion">Fecha de ultima edicion: 28/8/2022</div>
+        <div id="copileft">
+            <p>Copyleft</p>
+            <img id="copi" src="../images/pngwing.com.png" alt="">
+        </div>
+    </footer>
+</body>
+
+<script src="../js/menu2.js"></script>
+    <script src="../js/form.js"></script>
+
+    <script>
+        function abrirDialogo() {
+           let x = document.getElementById("dialogo1")
+           console.log(x)
+          x.showModal()
+        }
+
+        function cerrarDialogo() {
+           let x = document.getElementById("dialogo1")
+           console.log(x)
+          x.close()
+        }
+    </script>
+</html>
