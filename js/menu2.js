@@ -40,15 +40,15 @@ let barraaba = document.getElementById("navabajo")
         }
     }
     function abrir() {
-        barraar.style.transition = "3s"
-        barracen.style.transition = "3s"
-        barraaba.style.transition = "3s"
-        barraar.style.transform = "rotate(10045deg)"
-        barracen.style.transform = "rotate(10045deg)"
+        barraar.style.transition = "1s"
+        barracen.style.transition = "1s"
+        barraaba.style.transition = "1s"
+        barraar.style.transform = "rotate(345deg)"
+        barracen.style.transform = "rotate(345deg)"
         barracen.style.opacity = "0"
-        barraaba.style.transform = "rotate(10120deg)"
+        barraaba.style.transform = "rotate(320deg)"
         crear()
-        setTimeout(centrar, 4000)
+        setTimeout(centrar, 1000)
         abierto = true
     }
 
@@ -58,9 +58,9 @@ let barraaba = document.getElementById("navabajo")
     }
 
     function cerrar() {
-        barraar.style.transition = "2s"
-        barracen.style.transition = "2s"
-        barraaba.style.transition = "2s"
+        barraar.style.transition = "1s"
+        barracen.style.transition = "1s"
+        barraaba.style.transition = "1s"
         barraar.style.transform = "rotate(0deg)"
         barracen.style.transform = "rotate(0deg)"
         barracen.style.opacity = "1"
