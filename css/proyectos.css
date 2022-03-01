@@ -200,3 +200,15 @@ nav{
     flex-direction: column;
 }
   
+@media print {
+    *{
+        color: black !important;
+      }  
+      
+      label {
+        border: 0px;
+      }
+    video {
+        display: none !important;
+    }
+}

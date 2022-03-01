@@ -103,8 +103,27 @@ nav{
     z-index: 5;
 }
 
+#imprimir {
+  display: none;
+}
+
 @media (max-width: 750px) {
   .cuatro {
     background-image: url(../images/daw_movil.jpg);
   }
+  }
+
+  @media print {
+    .slide span {
+      display: none;
+    }
+
+    #imprimir {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    img {
+      width: 100vw !important;
+      height: 50vh !important;
+    }
   }

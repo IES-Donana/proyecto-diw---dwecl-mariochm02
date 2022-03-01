@@ -207,3 +207,28 @@ footer {
       height: 100vh;
     }
   }
+
+  @media print {
+    iframe {
+        height: 1000px;
+        margin-top: -300px;
+        border: 0px;
+    }
+
+    article {
+        background-color: white;
+        border: none;
+    }
+    #movilAB{
+        display: none;
+    }
+    #movilAR{
+        display: none;
+    }
+    h1 {
+        margin-bottom: 300px;
+    }
+    footer {
+        page-break-after: always;
+    }
+}

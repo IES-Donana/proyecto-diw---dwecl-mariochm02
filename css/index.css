@@ -155,3 +155,34 @@ nav{
     }
 }
 
+
+
+@media print {
+    *{
+        color: black;
+        
+    }
+
+    
+    #interior {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0px;
+        border: 0px;
+        box-shadow:  0px 0px 0px rgb(255, 255, 255), 0px 0px 0px rgb(255, 255, 255);
+        animation: none;
+    }
+
+    #videofondo {
+        display: none;
+    }
+
+    h1, h2 {
+        -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: rgba(3,166,136,1);
+    }
+
+    .navham {
+        display: none;
+    }
+}

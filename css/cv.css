@@ -248,3 +248,30 @@ footer {
   margin-left: 10vw;
   flex-direction: column;
 }
+
+@media print {
+
+  *{
+  color: black !important;
+}  
+
+label {
+  border: 0px;
+}
+
+#fotoimg {
+  width: 150px;
+  height: 150px;
+  
+}
+
+#foto{
+  margin-left: 0px;
+  margin-right: 100px;
+}
+
+#cabecera {
+  margin-left: 0px;
+}
+
+}
